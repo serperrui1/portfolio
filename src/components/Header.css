@@ -2,6 +2,7 @@ nav {
     position: fixed;
     top: 10px;
     left: 50%;
+    min-width: 550px;
     transform: translateX(-50%);
     color: white;
     z-index: 1000;
@@ -10,7 +11,21 @@ nav {
     border-radius: 15px;
     color: white;
     border: 0px solid var(--secundary);
+    text-align: center;
 
+}
+@media (max-width: 550px) { /* O el breakpoint que necesites */
+    nav{ width: 95%;
+        min-width: 0px;
+        padding:0px;
+        padding: 0.5rem 0;
+    }
+    nav a  {
+        font-size: 13px; /* Escala según el ancho de la pantalla */
+        margin: 0 0.3rem;
+;
+
+    }
 }
 
 nav.scrolled {

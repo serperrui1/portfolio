@@ -13,7 +13,11 @@
     font-size: 2.3rem;
     margin-bottom: 1rem;
 }
-
+@media (max-width: 826px) { /* O el breakpoint que necesites */
+    .hero h1  {
+        font-size: 3vh; /* Escala según el ancho de la pantalla */
+    }
+}
 .hero p {
     font-size: 1.2rem;
     text-wrap: balance;

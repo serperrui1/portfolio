@@ -22,22 +22,22 @@ function Header() {
     {
       title: "Inicio",
       label: "Inicio",
-      url: "/#hero",
+      url:`${import.meta.env.BASE_URL}#hero`,
     },
     {
       title: "Experiencia",
       label: "experiencia",
-      url: "/#experiencia",
+      url: `${import.meta.env.BASE_URL}#experiencia`,
     },
     {
       title: "Proyectos",
       label: "proyectos",
-      url: "/#proyectos",
+      url: `${import.meta.env.BASE_URL}#proyectos`,
     },
     {
       title: "Sobre mí",
       label: "sobre-mi",
-      url: "/#sobre-mi",
+      url: `${import.meta.env.BASE_URL}#sobre-mi`,
     },
     {
       title: "Contacto",

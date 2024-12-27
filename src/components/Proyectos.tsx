@@ -7,7 +7,7 @@ const proyectos = [
       title: "Stack Tower Game",
       description: "Juego de construccion de torres desarrollado en JS",
       code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:stackTowerImage,
+      image: stackTowerImage,
       url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
 
     },
@@ -15,7 +15,7 @@ const proyectos = [
       title: "Stack Tower Game",
       description: "Juego de construccion de torres desarrollado en JS",
       code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:stackTowerImage,
+      image: stackTowerImage,
       url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
 
     },
@@ -23,7 +23,7 @@ const proyectos = [
       title: "Stack Tower Game",
       description: "Juego de construccion de torres desarrollado en JS",
       code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:stackTowerImage,
+      image: stackTowerImage,
       url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
 
     },
@@ -31,7 +31,7 @@ const proyectos = [
       title: "Stack Tower Game",
       description: "Juego de construccion de torres desarrollado en JS",
       code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:stackTowerImage,
+      image: stackTowerImage,
       url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
 
     },
@@ -45,7 +45,7 @@ const proyectos = [
         {
       proyectos.map((p) => (
         <div className="proyecto">
-          <img src={`${import.meta.env.BASE_URL}${p.image}`} alt="stack-tower"/>
+          <img src={p.image} alt="stack-tower"/>
           <h3>{p.title}</h3>
           <p className='descripcion'>{p.description}</p>
           <div className="proyecto-buttons">
