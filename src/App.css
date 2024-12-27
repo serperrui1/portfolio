@@ -1,0 +1,27 @@
+
+
+#root {
+  width: 100%;
+  max-width: 850px;
+  height: 100%;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: left;
+}
+body{
+  background-color: var(--background-color)
+}
+.hero{
+  padding-top: 8rem;
+
+}
+.experiencia{
+  padding-top: 4rem;
+}
+.proyectos{
+  padding-top: 4rem;
+}
+.about{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}

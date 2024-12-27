@@ -1,0 +1,30 @@
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    border-left: 1px solid var(--secundary);
+}
+.title{
+    width: 100%;
+
+}
+.title h3,p{
+    margin: 5px;
+}
+.description {
+    padding-top: 5px;
+    white-space: pre-line; 
+}
+.job{
+    color: var(--secundary);
+}
+.dot-title{
+    position: absolute;
+    x: 0;
+    y: 0;
+    margin-left: -22px;
+    margin-top: -2px;
+    font-size: 30px;
+    color: var(--secundary);
+}

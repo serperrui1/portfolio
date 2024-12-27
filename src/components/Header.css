@@ -1,0 +1,32 @@
+nav {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 1000;
+    padding: 1rem 1rem;
+    background-color: var(--background-color);
+    border-radius: 15px;
+    color: white;
+    border: 0px solid var(--secundary);
+
+}
+
+nav.scrolled {
+
+    background-color: var(--background-color);
+    border: 1px solid var(--secundary);
+}
+
+
+a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--principal);
+}
