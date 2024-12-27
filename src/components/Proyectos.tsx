@@ -75,7 +75,7 @@ const proyectos = [
         {
       proyectos.map((p) => (
         <div className="proyecto">
-          <img src={p.image} alt="stack-tower"/>
+          <img src={`${import.meta.env.BASE_URL}${p.image}`} alt="stack-tower"/>
           <h3>{p.title}</h3>
           <p className='descripcion'>{p.description}</p>
           <div className="proyecto-buttons">
