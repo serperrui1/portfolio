@@ -1,4 +1,5 @@
 import './Proyectos.css'
+import stackTowerImage from '../assets/stack-tower.png'
 
 function Proyectos() {
 const proyectos = [
@@ -6,7 +7,7 @@ const proyectos = [
       title: "Stack Tower Game",
       description: "Juego de construccion de torres desarrollado en JS",
       code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:"src/assets/stack-tower.png",
+      image:stackTowerImage,
       url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
 
     },
@@ -14,7 +15,7 @@ const proyectos = [
       title: "Stack Tower Game",
       description: "Juego de construccion de torres desarrollado en JS",
       code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:"src/assets/stack-tower.png",
+      image:stackTowerImage,
       url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
 
     },
@@ -22,7 +23,7 @@ const proyectos = [
       title: "Stack Tower Game",
       description: "Juego de construccion de torres desarrollado en JS",
       code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:"src/assets/stack-tower.png",
+      image:stackTowerImage,
       url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
 
     },
@@ -30,42 +31,11 @@ const proyectos = [
       title: "Stack Tower Game",
       description: "Juego de construccion de torres desarrollado en JS",
       code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:"src/assets/stack-tower.png",
+      image:stackTowerImage,
       url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
 
     },
-    {
-      title: "Stack Tower Game",
-      description: "Juego de construccion de torres desarrollado en JS",
-      code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:"src/assets/stack-tower.png",
-      url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
 
-    },
-    {
-      title: "Stack Tower Game",
-      description: "Juego de construccion de torres desarrollado en JS",
-      code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:"src/assets/stack-tower.png",
-      url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
-
-    },
-    {
-      title: "Stack Tower Game",
-      description: "Juego de construccion de torres desarrollado en JS",
-      code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:"src/assets/stack-tower.png",
-      url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
-
-    },
-    {
-      title: "Stack Tower Game",
-      description: "Juego de construccion de torres desarrollado en JS",
-      code: "https://github.com/serperrui1/js_proyects/tree/master/Stack-Tower-2D",
-      image:"src/assets/stack-tower.png",
-      url: "https://serperrui1.github.io/js_proyects/Stack-Tower-2D/",
-
-    },
   ]
 
   return (
