@@ -29,11 +29,10 @@ nav {
 }
 
 nav.scrolled {
-
-    background-color: var(--background-color);
+    background-color: var(--background-color-opacity-60);
+    backdrop-filter: blur(10px);
     border: 1px solid var(--secundary);
 }
-
 
 a {
     margin: 0 1rem;

@@ -53,3 +53,10 @@ button{
     background-color: var(--background-secundary);
 
 }
+.icono{
+    font-size: medium ;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: -5px;
+}

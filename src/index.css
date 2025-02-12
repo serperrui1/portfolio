@@ -2,6 +2,7 @@
 
 :root {
   --background-color: #121212;
+  --background-color-opacity-70 : rgba(18, 18, 18, 0.60);
   --background-secundary: #282828;
   --principal:#fdd140;
   --secundary:#ffe28d;
